@@ -2,4 +2,38 @@
 
 /* 回答はここに書いてね */
 
+.q2{
+  width: 900px;
+  padding: 20px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+
+}
+
+.q2-text{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+}
+
+.q2-text:first-of-type{
+  padding-bottom: 0px;
+}
+
+.q2-text:nth-of-type(2){
+  padding-top: 0px;
+}
+
+.img1{
+  margin-bottom: 10px;
+  margin-right: 20px;
+  float:left
+}
+
+.img2{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  float:right
+}
 /* 回答はここに書いてね */
