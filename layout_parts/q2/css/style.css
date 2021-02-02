@@ -20,12 +20,18 @@
 .imgleft{
   margin-bottom: 10px;
   margin-right: 20px;
-  float:left
+  float: left;
 }
 
 .imgright{
   margin-left: 20px;
   margin-bottom: 10px;
-  float:right
+  float: right;
+}
+
+.clearfix{
+  display: block;
+  content: "";
+  clear: both;
 }
 /* 回答はここに書いてね */
