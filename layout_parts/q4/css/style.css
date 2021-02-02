@@ -11,7 +11,7 @@
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
-  align: center;
+  text-align: center;
 }
 
 .dtable:first-child{
@@ -24,17 +24,17 @@
   box-sizing: border-box;
 }
 
-.dtable1:first-child{
+.orange{
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.dtable1:nth-child(2){
+.pink{
   background-color: #e0abd9;
 
 }
 
-.dtable1:nth-child(3){
+.blue{
   width: 100px;
   background-color: #b6d8ed;
 }
@@ -46,15 +46,15 @@
   box-sizing: border-box;
 }
 
-.dtable2:first-child{
+.yellow{
   background-color: #e5d32e;
 }
 
-.dtable2:nth-child(2){
+.red{
   background-color: #ec8f9a;
 }
 
-.dtable2:nth-child(3){
+.green{
   background-color: #8fdcad;
   width: 500px;
 }
