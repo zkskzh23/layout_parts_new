@@ -1,10 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.in-q6__box{
+.q6-1{
   background-color: #e6f2ff;
   padding: 10px;
   width: 70px;
+}
+
+.q6box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  text-align: center;
+  display: block;
+}
+
+.right{
   margin: 0 auto;
   text-align: center;
 }
@@ -13,7 +26,7 @@
   display: table;
 }
 
-.q6-around{
+.q6tablecell{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -35,10 +48,11 @@
   position: relative;
 }
 
-.q6-3text{
+.q6-3fixed{
+  position: fixed;
+}
+
+.q6-3variable{
   position: absolute;
-  top: 41%;
-  left: 32%;
-  text-align: center;
 }
 /* 回答はここに書いてね */
