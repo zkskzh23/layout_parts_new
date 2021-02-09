@@ -49,29 +49,27 @@
 }
 
 .q6-2fixed{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
   position: relative;
 }
 
 .q6-2text2{
   position: absolute;
-  margin: auto;
-}
-.q6-2variable{
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.q6-2text3{
+  position: absolute;
   top: 50%;
   left: 50%;
+  text-align: center;
   transform: translate(-50%, -50%);
 }
 
+.q6-2variable{
+  position: absolute;
+}
 /* 回答はここに書いてね */
