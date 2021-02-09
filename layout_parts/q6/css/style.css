@@ -1,23 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6-1{
+.textalign{
+  text-align: center;
+  display: inline-block;
+}
+
+.in-q6-1{
+  text-align: center;
+}
+.q6-1text{
   background-color: #e6f2ff;
   padding: 10px;
   width: 70px;
-}
-
-.q6box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.left{
+  margin: 0 auto;
   text-align: center;
-  display: block;
 }
 
-.right{
+.margin{
   margin: 0 auto;
   text-align: center;
 }
@@ -38,21 +38,40 @@
   align-items: center;
 }
 
-.q6-2text{ 
+.q6-2text1{ 
   display: inline-block;
   background-color: #fff;
   padding: 10px;
 }
 
-.q6-3{
+.position{
   position: relative;
 }
 
-.q6-3fixed{
-  position: fixed;
+.q6-2fixed{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: relative;
 }
 
-.q6-3variable{
+.q6-2text2{
   position: absolute;
+  margin: 0 auto;
 }
+.q6-2variable{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* 回答はここに書いてね */
