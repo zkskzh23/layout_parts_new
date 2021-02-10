@@ -18,6 +18,10 @@
   width: 230px;
 }
 
+.q1-box:first-child{
+  margin-left: 0px;
+}
+
 .q1-text{
   background-color: #eaf4ff;
   border: 10px solid;

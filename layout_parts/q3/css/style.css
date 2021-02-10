@@ -8,46 +8,28 @@ table.q3table{
   text-align: center;
 }
 
-.q3tableth{
+.q3table th{
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
-}
-
-.q3tabletr:nth-child(3){
-  background-color: #ecf1f2;
-}
-
-.q3tabletr:nth-child(5){
-  background-color: #ecf1f2;
-}
-
-.q3tableth,.q3tabletd{
   padding: 10px;
   border: solid #dedede 1px;
 }
 
-.date{
-  background-color: #2244aa;
-}
-
-.gray{
-  background-color: #ecf1f2;
-}
-
-.q3tabletd{
+.q3table td{
+  padding: 10px;
+  border: solid #dedede 1px;
   font-size: 16px;
   line-height: 22px;
 }
 
-.q3tabletd:first-child{
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
+.q3table tr:nth-child(odd){
+  background-color: #ecf1f2;
 }
 
-.q3tabletr:nth-child(6){
+
+tbody tr:last-child{
   border-top: 2px dashed #000;
 }
 
