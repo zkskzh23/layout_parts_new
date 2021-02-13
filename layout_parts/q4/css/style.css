@@ -4,24 +4,24 @@
 
 .table{
   background-color: #ecf1f2;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.dtable{
+.q4table{
   display: table;
-  padding: 20px;
+  margin-top: 20px;
   width: 100%;
-  box-sizing: border-box;
-  text-align: center;
 }
 
-.dtable:first-child{
-  padding-bottom: 0px;
+.q4table:first-child{
+  margin-top: 0px;
 }
 
-.dtable1{
+.tablecell{
   display: table-cell;
-  padding: 20px;
-  box-sizing: border-box;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .orange{
@@ -37,13 +37,6 @@
 .blue{
   width: 100px;
   background-color: #b6d8ed;
-}
-
-
-.dtable2{
-  display: table-cell;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 .yellow{

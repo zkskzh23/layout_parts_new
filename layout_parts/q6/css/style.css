@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .textalign{
-  text-align: center;
   display: inline-block;
 }
 
 .in-q6-1{
   text-align: center;
 }
+
 .q6-1text{
   background-color: #e6f2ff;
-  padding: 10px;
-  width: 70px;
-  margin: 0 auto;
-  text-align: center;
+  padding: 10px 0;
+  width: 90px;
+  display: inline-block;
 }
 
 .margin{
   margin: 0 auto;
-  text-align: center;
+  text-align: center
 }
 
 .q6table{
