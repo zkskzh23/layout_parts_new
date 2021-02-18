@@ -14,7 +14,7 @@
   display: block;
 }
 
-.q6-1text{
+.q6-1text-left{
   background-color: #e6f2ff;
   padding: 10px 0;
   width: 90px;
@@ -22,10 +22,14 @@
   text-align: center;
 }
 
-.q6-1text:nth-child(2){
+.q6-1text-right{
+  background-color: #e6f2ff;
+  padding: 10px 0;
+  width: 90px;
   display: block;
+  text-align: center;
   margin: 0 auto;
-
+}
 
 .q6table{
   display: table;
