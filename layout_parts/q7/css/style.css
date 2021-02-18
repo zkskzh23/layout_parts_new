@@ -2,4 +2,96 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q7box{
+  width: 225px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.q7-1box{
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.q7-1box:first-child{
+  margin-left: 0;
+}
+
+.q7-2table{
+  display: table;
+  margin: 0 auto;
+}
+
+.in-q7-2{
+  margin: 0 auto;
+}
+
+.q7-2box{
+  display: table-cell;
+  padding-left: 50px;
+}
+
+.q7-2box:first-child{
+  padding-left: 0;
+}
+
+.q7-2text{
+  font-size: 16px;
+}
+
+.q7-3{
+  font-size: 0;
+}
+.q7-3box{
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 225px;
+}
+
+.q7-3box:first-child{
+  margin-left: 0;
+}
+
+.q7-4{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7-4box{
+  box-sizing: border-box;
+}
+
+.q7-5{
+  font-size: 0;
+}
+
+.in-q7-5{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.q7-5fixed{
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.q7-5variable{
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */
