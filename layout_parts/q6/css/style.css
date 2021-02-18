@@ -11,8 +11,7 @@
 }
 
 .margin{
-  margin: 0 auto;
-  text-align: center
+  display: block;
 }
 
 .q6-1text{
@@ -22,6 +21,11 @@
   display: inline-block;
   text-align: center;
 }
+
+.q6-1text:nth-child(2){
+  display: block;
+  margin: 0 auto;
+
 
 .q6table{
   display: table;
