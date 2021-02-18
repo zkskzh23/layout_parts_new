@@ -10,16 +10,17 @@
   text-align: center;
 }
 
+.margin{
+  margin: 0 auto;
+  text-align: center
+}
+
 .q6-1text{
   background-color: #e6f2ff;
   padding: 10px 0;
   width: 90px;
   display: inline-block;
-}
-
-.margin{
-  margin: 0 auto;
-  text-align: center
+  text-align: center;
 }
 
 .q6table{
