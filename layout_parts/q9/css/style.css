@@ -11,26 +11,21 @@
   border-radius: 30px;
 }
 
-.q9bubble:before {
+.q9bubble:before, .q9bubble:after {
   content: "";
   position: absolute;
-  bottom: -40px;
-  left: 39px;
-  margin-left: -10px;
-  border: 22px solid transparent;
-  border-top: 22px solid #FFF;
-  z-index: 2;
+  left: 30px;
+}
+
+.q9bubble:before {
+  bottom: -48px;
+  border: 23px solid transparent;
+  border-top: 23px solid #222;
 }
 
 .q9bubble:after {
-  content: "";
-  position: absolute;
-  bottom: -48px;
-  left: 43px;
-  margin-left: -15px;
-  border: 23px solid transparent;
-  border-top: 23px solid #222;
-  z-index: 1;
+  bottom: -40px;
+  border: 22px solid transparent;
+  border-top: 22px solid #fff;
 }
-
 /* 回答はここに書いてね */
